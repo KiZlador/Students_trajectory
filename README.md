@@ -151,6 +151,3 @@ When a user requests an explanation for a recommended question, the system perfo
 3. **Synthesis**: It ranks the historical questions by a combination of these two metrics and generates a natural language explanation (e.g., *"Recommended because it is 85% similar to question `q1234` from your history, which had the highest attention weight (42%) in your current session context"*).
 
 ---
-
-*Developed as a comprehensive end-to-end Machine Learning engineering project, demonstrating expertise in sequential recommendation, model regularization, vector search optimization, and interpretable AI.*
-```
