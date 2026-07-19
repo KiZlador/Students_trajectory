@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Jupyter & Data (ИГНОРИРУЕМ НАВСЕГДА)
+*.ipynb
+.ipynb_checkpoints/
+*.parquet
+*.zip
+*.csv
+*.jsonl
+
+# ML Artifacts (будут отслеживаться только через LFS)
+*.pth
+*.index
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

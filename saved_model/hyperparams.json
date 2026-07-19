@@ -1,0 +1,36 @@
+{
+  "vocab_size": 12081,
+  "embed_dim": 64,
+  "num_heads": 2,
+  "num_layers": 2,
+  "max_seq_len": 50,
+  "dropout": 0.5,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "best_model": "TRON (Reg)",
+  "model_type": "TRON",
+  "loss_type": "sampled_softmax",
+  "num_negatives": 32,
+  "test_metrics": {
+    "HR@5": 0.1355,
+    "HR@10": 0.1509,
+    "HR@20": 0.1761,
+    "NDCG@5": 0.1133,
+    "NDCG@10": 0.1184,
+    "NDCG@20": 0.1249
+  },
+  "all_models_results": {
+    "BCE (Reg)": {
+      "HR@10": 0.1561,
+      "NDCG@10": 0.0852
+    },
+    "gSASRec (Reg)": {
+      "HR@10": 0.1647,
+      "NDCG@10": 0.1002
+    },
+    "TRON (Reg)": {
+      "HR@10": 0.1509,
+      "NDCG@10": 0.1184
+    }
+  }
+}

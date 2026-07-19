@@ -1,0 +1,8 @@
+torch
+faiss-cpu
+streamlit
+numpy
+pandas
+scikit-learn
+networkx
+matplotlib
