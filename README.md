@@ -114,8 +114,6 @@ The `research/` directory contains the complete Jupyter Notebook pipeline used t
 2. `02-model-and-training.ipynb`: Implementation of SASRec, custom training loops, TRON sampling, and regularization experiments.
 3. `03-cluster-optimization.ipynb`: Unsupervised clustering of item embeddings, Elbow Method, and Silhouette Score analysis to determine optimal $k$.
 
-*(Note: `.ipynb` files are currently excluded from the main branch to keep the repository lightweight, but can be provided or restored upon request).*
-
 ---
 
 ## 📁 Project Structure
